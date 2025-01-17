@@ -86,8 +86,7 @@ public class HotelBooking {
 	
 	}
 	@AfterClass
-	public static void close() throws InterruptedException {
-		Thread.sleep(5000);
+	public static void close() {
 	driver.quit();
 	}
 }
